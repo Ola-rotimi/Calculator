@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Latin';
+}
+
+.container{
+    margin: 0 auto;
+    width: 414px;
+    max-width: 100%;
+    min-height: 400px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    background-color: wheat;
+}
+
+button{
+    height: 50px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: #1B2430;
+    color: white;
+    border: gray;
+}
+
+.operator{
+    background-color: #FF9F29;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    max-width: 90%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.number:hover{
+    background-color: #51557E;
+}
+
+.operator:hover{
+    background-color: darkgoldenrod;
+}
+
+#display{
+    display: grid;
+    background-color: #51557E;
+    height: 100px;
+    max-width: 90%;
+    color: white;
+}
